@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "郑瑞晨 Rui-Chen Zheng"
-description              : "Final-Year Master Student "
+title                    : "李家昂 Jiaang Li"
+description              : "Third-year PhD Student "
 repository               : "ZhengRachel/zhengrachel.github.io"
 # Modified from true to false
 google_scholar_stats_use_cdn : false
@@ -22,15 +22,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Rui-Chen Zheng<br/>郑瑞晨" 
+  name             : "Jiaang Li<br/>李家昂" 
   css              : "text-align: center;"
-  avatar           : "images/rczheng2023.png"
+  avatar           : "images/jali2023.jpg"
   bio              : "University of Science and Technology of China"
   location         : "Hefei, China"
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "zhengruichen@mail.ustc.edu.cn"
+  email            : "jali@mail.ustc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -39,7 +39,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ZhengRachel" # e.g., "github username"
+  github           : "JiaangL" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
