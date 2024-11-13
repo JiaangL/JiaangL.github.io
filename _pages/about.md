@@ -41,7 +41,7 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review (Oral)</div><img src='images/Quantization.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/Quantization.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Enhance Lifelong Model Editing with Continuous Data-Adapter Association](https://arxiv.org/pdf/2408.11869)
 
