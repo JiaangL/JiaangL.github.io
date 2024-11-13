@@ -41,6 +41,18 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review (Oral)</div><img src='images/Quantization.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Enhance Lifelong Model Editing with Continuous Data-Adapter Association](https://arxiv.org/pdf/2408.11869)
+
+**Jiaang Li**, Quan Wang, Zhongnan Wang, Yongdong Zhang, Zhendong Mao
+
+- Current Lifelong Model Editing approaches manage sequential edits through discrete data-adapter mappings. They assign a unique adapter per new edit via key-value mapping. They are sensitive to minor data changes, as such changes can map an edit to a wrong adapter, causing inconsistent outputs and poor generalization.
+- In contrast, our method maps each edit to a combination of preset adapters, ensuring minor data changes don't entirely alter the adapter params, enhancing generalization. 
+- Our method also addresses the scalability challenge by sharing preset adapters across edits, while previous discrete methods require as many adapters as edits.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 (Oral)</div><img src='images/Quantization.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Random Entity Quantization for Parameter-Efficient Compositional Knowledge Graph Representation (**Oral**)](https://arxiv.org/abs/2310.15797#)
@@ -48,7 +60,10 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 **Jiaang Li**, Quan Wang, Yi Liu, Licheng Zhang, Zhendong Mao
 
 [**Code**](https://github.com/JiaangL/RandomQuantization)   [**Slides**](files/emnlp2023_slides.pdf)
-- Representation Learning on Knowledge Graphs (KGs) is essential for downstream tasks. The dominant approach, KG Embedding (KGE), represents entities with independent vectors and faces the scalability challenge. Recent studies propose an alternative way for parameter efficiency, which represents entities by composing entity-corresponding codewords matched from predefined small-scale codebooks. We refer to the process of obtaining corresponding codewords of each entity as entity quantization, for which previous works have designed complicated strategies. Surprisingly, this paper shows that simple random entity quantization can achieve similar results to current strategies. We analyze this phenomenon and reveal that entity codes, the quantization outcomes for expressing entities, have higher entropy at the code level and Jaccard distance at the codeword level under random entity quantization. Therefore, different entities become more easily distinguished, facilitating effective KG representation. The above results show that current quantization strategies are not critical for KG representation, and there is still room for improvement in entity distinguishability beyond current strategies.
+- The dominant Knowledge Graph (KG) representation approach, KG Embedding (KGE), represents entities with independent vectors and faces the scalability challenge. 
+- Recent studies propose an alternative way for parameter efficiency, which represents entities by composing entity-corresponding codewords matched from predefined small-scale codebooks. We define the process of obtaining corresponding codewords of each entity as entity quantization, for which previous works have designed complicated strategies. 
+- Surprisingly, we find out that simple random entity quantization can achieve similar results to current strategies. We analyze this phenomenon and reveal that entity codes, the quantization outcomes for expressing entities, have higher entropy at the code level and Jaccard distance at the codeword level under random entity quantization. Therefore, different entities become more easily distinguished, facilitating effective KG representation. 
+- We prove that random quantization strategy is already good enough for KG representation. Future work could focusing on improving entity distinguishability for further benefits.
 </div>
 </div>
 
