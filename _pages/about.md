@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Hi there! My name is Jiaang Li (李家昂).<br/>
-I am currently a third-year PhD student at <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl=en&oi=ao'>Yongdong Zhang</a>. and Prof. <a href='https://faculty.ustc.edu.cn/maozhendong/zh_CN/index.htm'>Zhendong Mao</a>. I also closely collaborate with  <a href='https://scholar.google.com/citations?user=l2yEbhAAAAAJ&hl=zh-CN&oi=ao'>Quan Wang</a>.
+I am currently a PhD candidate at <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl=en&oi=ao'>Yongdong Zhang</a>. and Prof. <a href='https://faculty.ustc.edu.cn/maozhendong/zh_CN/index.htm'>Zhendong Mao</a>. I also closely collaborate with  <a href='https://scholar.google.com/citations?user=l2yEbhAAAAAJ&hl=zh-CN&oi=ao'>Quan Wang</a>.
 My current research interests lie within machine learning topics about large language models (LLMs), and I am also researching on knowledge graph representation and reasoning. <br/>
 My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf">English Version</a>* *<a href="assets/Jiaang Li CV zh.pdf">中文版</a>*.
 
@@ -36,20 +36,19 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 - *2017.09 - 2021.06*, **Bachelor of Engineering** in Automation, *University of Science and Technology of China*  
   - Thesis: Learning and Reasoning with Complex Relations in Knowledge Graphs
   <!-- - GPA: 3.89/4.3, 90.46/100 (Top 5%) -->
-  <!-- - Minor in Business Administration -->
   - Member of Artificial Intelligence (AI) Elite Class.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/MixLoRA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/MixLoRA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Enhance Lifelong Model Editing with Continuous Data-Adapter Association](https://arxiv.org/pdf/2408.11869)
+[ELDER: Enhancing Lifelong Model Editing with Mixture-of-LoRA](https://arxiv.org/pdf/2408.11869)
 
 **Jiaang Li**, Quan Wang, Zhongnan Wang, Yongdong Zhang, Zhendong Mao
 
-- Current Lifelong Model Editing approaches manage sequential edits through discrete data-adapter mappings. They assign a unique adapter per new edit via key-value mapping. They are sensitive to minor data changes, as such changes can map an edit to a wrong adapter, causing inconsistent outputs and poor generalization.
-- In contrast, our method maps each edit to a combination of preset adapters, ensuring minor data changes don't entirely alter the adapter params, enhancing generalization. 
-- Our method also addresses the scalability challenge by sharing preset adapters across edits, while previous discrete methods require as many adapters as edits.
+- Current Lifelong Model Editing approaches manage sequential edits through discrete data-adapter mappings. They assign a unique adapter for each new edit via key-value mapping, making them sensitive to minor data changes. Such changes can incorrectly map an edit to a wrong adapter, causing inconsistent outputs and poor generalization.
+- In contrast, our method maps each edit to a mixed combination of preset adapters, ensuring minor data changes don't entirely alter the adapter parameters, thereby enhancing generalization. 
+- Additionally, our method is scalable by sharing preset adapters across increasing edits, while previous discrete methods require a separate adapter for each edit data.
 </div>
 </div>
 
@@ -60,10 +59,10 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 **Jiaang Li**, Quan Wang, Yi Liu, Licheng Zhang, Zhendong Mao
 
 [**Code**](https://github.com/JiaangL/RandomQuantization)   [**Slides**](files/emnlp2023_slides.pdf)
-- The dominant Knowledge Graph (KG) representation approach, KG Embedding (KGE), represents entities with independent vectors and faces the scalability challenge. 
+- The dominant Knowledge Graph (KG) representation approach, KG Embedding, represents entities with independent vectors and faces the scalability challenge. 
 - Recent studies propose an alternative way for parameter efficiency, which represents entities by composing entity-corresponding codewords matched from predefined small-scale codebooks. We define the process of obtaining corresponding codewords of each entity as entity quantization, for which previous works have designed complicated strategies. 
-- Surprisingly, we find out that simple random entity quantization can achieve similar results to current strategies. We analyze this phenomenon and reveal that entity codes, the quantization outcomes for expressing entities, have higher entropy at the code level and Jaccard distance at the codeword level under random entity quantization. Therefore, different entities become more easily distinguished, facilitating effective KG representation. 
-- We prove that random quantization strategy is already good enough for KG representation. Future work could focusing on improving entity distinguishability for further benefits.
+- Surprisingly, we find that simple random entity quantization can achieve similar results to current strategies. Our analyses reveal that entity codes-the quantization outcomes for expressing entities- have higher entropy at the code level and greater Jaccard distance at the codeword level under random entity quantization. Therefore, different entities become more easily distinguished, facilitating effective KG representation. 
+- We prove that the random quantization strategy is already good enough for KG representation. Future work could focusing on improving entity distinguishability from other aspects.
 </div>
 </div>
 
@@ -74,7 +73,9 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 **Jiaang Li**, Quan Wang, Zhendong Mao
 
 [**Code**](https://github.com/JiaangL/REPORT)   [**Slides**](files/REPORT_slides.pdf)   [**Video**](https://www.bilibili.com/video/BV1KL411h7y9/?spm_id_from=333.999.0.0&vd_source=422066927d2971b1f78fb59fbff3a263)
-- Relation prediction on knowledge graphs (KGs) is a key research topic. Dominant embedding-based methods mainly focus on the transductive setting and lack the inductive ability to generalize to new entities for inference. Existing methods for inductive reasoning mostly mine the connections between entities, i.e., relational paths, without considering the nature of head and tail entities contained in the relational context. This paper proposes a novel method that captures both connections between entities and the intrinsic nature of entities, by simultaneously aggregating RElational Paths and cOntext with a unified hieRarchical Transformer framework, namely REPORT. REPORT relies solely on relation semantics and can naturally generalize to the fully-inductive setting, where KGs for training and inference have no common entities. In the experiments, REPORT performs consistently better than all baselines on almost all the eight version subsets of two fully-inductive datasets. Moreover. REPORT is interpretable by providing each element's contribution to the prediction results.
+- Dominant embedding-based methods for relation prediction on knowledge graphs (KGs) mainly focus on the transductive setting and lack the inductive ability to generalize to new entities for inference. Existing methods for inductive reasoning mostly mine the connections between entities, i.e., relational paths, without considering the nature of head and tail entities contained in the relational context.
+- We proposes to capture both connections between entities and the intrinsic nature of each single entity, by simultaneously aggregating RElational Paths and cOntext with a unified hieRarchical Transformer framework, namely REPORT. REPORT relies solely on relation semantics and can naturally generalize to the fully-inductive setting, where KGs for training and inference have no common entities.
+- REPORT performs consistently better than all baselines on almost all the eight version subsets of two fully-inductive datasets. Moreover. REPORT is interpretable by providing each element's contribution to the prediction results.
 </div>
 </div>
 
