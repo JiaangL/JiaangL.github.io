@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Hi there! My name is Jiaang Li (李家昂).<br/>
-I am currently a PhD candidate at <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl=en&oi=ao'>Yongdong Zhang</a>. and Prof. <a href='https://faculty.ustc.edu.cn/maozhendong/zh_CN/index.htm'>Zhendong Mao</a>. I also closely collaborate with  <a href='https://scholar.google.com/citations?user=l2yEbhAAAAAJ&hl=zh-CN&oi=ao'>Quan Wang</a>.
+I am currently a PhD candidate at <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl=en&oi=ao'>Yongdong Zhang</a>. and Prof. <a href='https://scholar.google.com/citations?hl=zh-CN&user=hxGs4ukAAAAJ'>Zhendong Mao</a>. I also closely collaborate with  <a href='https://scholar.google.com/citations?user=l2yEbhAAAAAJ&hl=zh-CN&oi=ao'>Quan Wang</a>.
 My current research interests lie within machine learning topics about large language models (LLMs), and I am also researching on knowledge graph representation and reasoning. <br/>
 My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf">English Version</a>* *<a href="assets/Jiaang Li CV zh.pdf">中文版</a>*.
 
