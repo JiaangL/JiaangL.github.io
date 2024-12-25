@@ -54,7 +54,7 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 (Oral)</div><img src='images/Quantization.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Random Entity Quantization for Parameter-Efficient Compositional Knowledge Graph Representation (**Oral**)](https://arxiv.org/abs/2310.15797#)
+[Random Entity Quantization for Parameter-Efficient Compositional Knowledge Graph Representation](https://arxiv.org/abs/2310.15797#)
 
 **Jiaang Li**, Quan Wang, Yi Liu, Licheng Zhang, Zhendong Mao
 
@@ -68,7 +68,7 @@ My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf"
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023 (Oral)</div><img src='images/REPORT.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Inductive Relation Prediction from Relational Paths and Context with Hierarchical Transformers (**Oral**)](https://arxiv.org/abs/2304.00215)
+[Inductive Relation Prediction from Relational Paths and Context with Hierarchical Transformers](https://arxiv.org/abs/2304.00215)
 
 **Jiaang Li**, Quan Wang, Zhendong Mao
 
