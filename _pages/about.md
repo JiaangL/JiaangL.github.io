@@ -20,7 +20,7 @@ redirect_from:
 Hi there! My name is Jiaang Li (李家昂).<br/>
 I am currently a PhD candidate at <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='https://scholar.google.com/citations?user=hxGs4ukAAAAJ&hl=en&oi=ao'>Yongdong Zhang</a>. and Prof. <a href='https://scholar.google.com/citations?hl=zh-CN&user=m-0P8sgAAAAJ'>Zhendong Mao</a>. I also closely collaborate with  <a href='https://scholar.google.com/citations?user=l2yEbhAAAAAJ&hl=zh-CN&oi=ao'>Quan Wang</a>.
 My current research interests lie within knowledge topics about large language models, and I am also researching on knowledge graph representation and reasoning. <br/>
-My **CV** can be downloaded here *<a href="assets/Jiaang Li CV 1113-2024 EN.pdf">English Version</a>* *<a href="assets/Jiaang Li CV zh.pdf">中文版</a>*.
+My **CV** can be downloaded *<a href="assets/Jiaang Li CV en.pdf">here</a>*.
 
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
