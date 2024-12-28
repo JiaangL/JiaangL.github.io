@@ -60,9 +60,8 @@ My **CV** can be downloaded *<a href="assets/Jiaang Li CV en.pdf">here</a>*.
 **Jiaang Li**, Quan Wang, Yi Liu, Licheng Zhang, Zhendong Mao
 
 [**Code**](https://github.com/JiaangL/RandomQuantization)   [**Slides**](files/emnlp2023_slides.pdf)
-- The dominant Knowledge Graph (KG) representation approach, KG Embedding, represents entities with independent vectors and faces the scalability challenge. 
-- Recent studies propose an alternative way for parameter efficiency, which represents entities by composing entity-corresponding codewords matched from predefined small-scale codebooks. We define the process of obtaining corresponding codewords of each entity as entity quantization, for which previous works have designed complicated strategies. 
-- Surprisingly, we find that simple random entity quantization can achieve similar results to current strategies. Our analyses reveal that entity codes-the quantization outcomes for expressing entities- have higher entropy at the code level and greater Jaccard distance at the codeword level under random entity quantization. Therefore, different entities become more easily distinguished, facilitating effective KG representation. 
+- Knowledge Graph (KG) Embedding represents entities with independent vectors and faces the scalability challenge. Recent studies propose compositional KG representation for parameter efficiency. We abstract the existing works, and define the process of obtaining corresponding codewords for each entity as entity quantization, for which previous works have designed complicated strategies.
+- Reveal that simple random entity quantization can achieve similar results to current strategies. Further analyses reveal that entity codes have higher entropy at the code level and Jaccard distance at the codeword level under random entity quantization, which make different entities more distinguishable. 
 - We prove that the random quantization strategy is already good enough for KG representation. Future work could focusing on improving entity distinguishability from other aspects.
 </div>
 </div>
@@ -74,16 +73,16 @@ My **CV** can be downloaded *<a href="assets/Jiaang Li CV en.pdf">here</a>*.
 **Jiaang Li**, Quan Wang, Zhendong Mao
 
 [**Code**](https://github.com/JiaangL/REPORT)   [**Slides**](files/REPORT_slides.pdf)   [**Video**](https://www.bilibili.com/video/BV1KL411h7y9/?spm_id_from=333.999.0.0&vd_source=422066927d2971b1f78fb59fbff3a263)
-- Dominant embedding-based methods for relation prediction on knowledge graphs (KGs) mainly focus on the transductive setting and lack the inductive ability to generalize to new entities for inference. Existing methods for inductive reasoning mostly mine the connections between entities, i.e., relational paths, without considering the nature of head and tail entities contained in the relational context.
-- We proposes to capture both connections between entities and the intrinsic nature of each single entity, by simultaneously aggregating RElational Paths and cOntext with a unified hieRarchical Transformer framework, namely REPORT. REPORT relies solely on relation semantics and can naturally generalize to the fully-inductive setting, where KGs for training and inference have no common entities.
-- REPORT performs consistently better than all baselines on almost all the eight version subsets of two fully-inductive datasets. Moreover. REPORT is interpretable by providing each element's contribution to the prediction results.
+- Propose a method that performs inductive reasoning on Knowledge Graphs and can naturally generalize to the fully-inductive setting, where KGs for training and inference have no common entities.
+- Capture both connections between entities and the intrinsic nature of each single entity, by simultaneously aggregating relational paths and context. Use the aggregated upper-level semantics for reasoning to improve model prediction performance.
+- Design a Hierarchical Transformer model for path-neighborhood encoding and information aggregation. Our proposed model performs consistently better than all baselines on almost all the eight version subsets of two fully-inductive datasets. Moreover. we design a method to interpret our method by providing each element’s contribution to the prediction results.
 </div>
 </div>
 
 # 🎖 Honors and Awards
 - *2023.10* GDC Tech Scholarship. 
-- *2020.12* USTC Outstanding Student Scholarship, Bronze Award.
-- *2019.10* Institute of Microsystems, CAS Scholarship. 
+- *2019.10* Institute of Microsystems, CAS Scholarship.
+- *2017 & 2018 & 2021* USTC Outstanding Student Scholarship.
 
 
 # 📚 Experience
