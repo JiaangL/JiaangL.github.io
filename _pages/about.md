@@ -82,7 +82,7 @@ My **CV** can be downloaded *<a href="assets/Jiaang Li CV en.pdf">here</a>*.
 # 🎖 Honors and Awards
 - *2023.10* GDC Tech Scholarship. 
 - *2019.10* Institute of Microsystems, CAS Scholarship.
-- *2017 & 2018 & 2021* USTC Outstanding Student Scholarship.
+- *2018 & 2020* USTC Outstanding Student Scholarship.
 
 
 # 📚 Experience
