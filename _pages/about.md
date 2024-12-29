@@ -47,8 +47,8 @@ My **CV** can be downloaded *<a href="assets/Jiaang Li CV en.pdf">here</a>*.
 **Jiaang Li**, Quan Wang, Zhongnan Wang, Yongdong Zhang, Zhendong Mao
 
 [**Code**](https://github.com/JiaangL/ELDER)
-- Current Lifelong Model Editing approaches manage sequential edits through discrete data-adapter mappings. They assign a unique adapter for each new edit via key-value mapping, making them sensitive to minor data changes. Such changes can incorrectly map an edit to a wrong adapter, causing inconsistent outputs and poor generalization.
-- In contrast, our method maps each edit to a mixed combination of preset adapters, ensuring minor data changes don't entirely alter the adapter parameters, thereby enhancing generalization. 
+- Current Lifelong Model Editing approaches manage sequential edits through discrete data-adapter mappings. They assign a unique adapter for each new edit via key-value mapping, making them sensitive to minor data changes, causing inconsistent outputs and poor generalization.
+- In contrast, our method maps each edit to a mixed combination of preset adapters, ensuring minor data changes don't entirely alter the adapter parameters, enhancing generalization. Experiments on Llama2-7B and GPT2-XL have proven the effectiveness of our method.
 - Additionally, our method is scalable by sharing preset adapters across increasing edits, while previous discrete methods require a separate adapter for each edit data.
 </div>
 </div>
