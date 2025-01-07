@@ -89,7 +89,7 @@ My **CV** can be downloaded *<a href="assets/Jiaang Li CV en.pdf">here</a>*.
 - *2023 Spring*, Teaching Assistant, Machine Learning and its applications, USTC. (by Prof. Zhendong Mao)
 - *2022.9-2023.3*, Research Intern, State Key Laboratory of Communication Content Cognition.
 - *2020.5-2020.8*, Summer Research Intern (Remote), University of California, Santa Barbara. (Hosted by Prof. Yufei Ding).
-- *2019.7-2019.8*, Summer School in Artificial Intelligence and Robotics, Imperial College London, UK. (Hosted by Prof. Guanzhong Yang, Best Overall Project, [\[video\]](assets/PICKER.mp4)).
+- *2019.7-2019.8*, Summer School in Artificial Intelligence and Robotics, Imperial College London, UK. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
